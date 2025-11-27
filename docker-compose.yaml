@@ -14,8 +14,9 @@ services:
   mysql:
     image: mysql:v1
     container_name: mysql
+  
   rabbitmq:
-    image: rabbitq:3
+    image: rabbitmq:3
     container_name: rabbitmq
     environment:
       RABBITMQ_DEFAULT_USER: roboshop
