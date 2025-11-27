@@ -1,6 +1,6 @@
 services:
   mongodb:
-    images: mongodb:v1
+    image: mongodb:v1
     container_name: mongodb
 
 networks:
