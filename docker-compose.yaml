@@ -5,6 +5,6 @@ services:
 
 networks:
   default:
-    driver: brodge
+    driver: bridge
     name: roboshop
     external: false
